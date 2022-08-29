@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#006400;
+}
+#header{
+    padding: 15px 0 0 20px;
+    background-color: white;
+    }
+#header img{
+    margin-left:70px;
+}
+#nav{
+    background-image:linear-gradient(to right,rgb(87, 53, 53),rgb(250, 14, 14));
+    padding:10px 9px 40px 0;
+    border-radius: 5px;
+}
+#nav ul{
+    margin-top: 0;
+    padding-top: 0px;
+    float:right;
+}
+#nav ul li{
+    display: inline;
+    font-size:18px;
+    padding-right:90px;
+}
+#nav ul li a{
+    color: white;
+    text-decoration:none;
+}
+
+#container .UniName{
+    color:#006400;
+    font-family: 'Times New Roman';
+    position:absolute;
+    top:20px;
+    right:150px;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+span strong{
+    text-shadow: 2px 2px grey;
+}
+span .motto{
+    font-family:;
+    position: absolute;
+    padding-top:10px;
+    font-size: 20px;
+    right: 50px;
+    color: red;
+    font-weight: bold;
+}
+#content{
+    background-image: url("images/NOUN-Graduates.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:350px;
+    color: white;
+}
+
+#content span{
+    position: absolute;
+    padding-right: 70px;
+    width:120px;
+    height:270px;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border-radius:20px;
+    left:14px;
+    top:220px;
+}
+.blue{
+    margin-left:40px;
+    background-image:linear-gradient(to bottom right,rgb(40, 38, 44),rgb(7, 43, 245));
+}
+#content ul{
+    font-size:15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    width:125px;
+    margin: 23px 12px 0px 12px;
+  /*  white-space: nowrap;*/
+    
+}
+#content ul li{
+    margin-bottom: 3px;
+}
+.red{
+    margin-left: 240px;
+    background-image:linear-gradient(to bottom right,rgb(57, 49, 49),rgb(250, 14, 14));
+}
+.green{
+    margin-left:440px;
+    background-image:linear-gradient(to bottom right,rgb(49, 57, 50),rgb(14, 250, 89));
+}
+#footer{
+    height: 550px;
+}
+#footer span{
+    position: absolute;
+    top:550px;
+    padding:50px;
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+}
+.verification{
+    margin-left:40px;
+}
+.registration{
+    margin-left:450px;
+}
+.credentials{
+    margin-left:850px;
+}
+.copyright{
+    position: relative;
+    top:500px;
+    text-align: center;
+    color: white;
+}
+.asterik{
+    font-weight: bold;
+    color:red;
+}
+button{
+    background-color:blue; 
+    color:white;
+    font-weight: bold;
+}
+button:hover{
+    color: blue;
+    background-color: white;
+}
